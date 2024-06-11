@@ -26,8 +26,8 @@
             print_r("<td>".$inData['author']."</td>");
             print_r("<td>".$inData['page_no.']."</td>");
             print_r("<td>".$inData['description']."</td>");
-            print_r(var_dump($inData['progress']));
-            if($inData['progress'] = "0"){
+            // print_r(var_dump($inData['progress'])"");
+            if($inData['progress'] == "0"){
                 $progress = 'Completed';
             } else{
                 $progress = 'In Progress';
