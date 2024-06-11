@@ -38,8 +38,8 @@
 </div>
 <script>
   document.getElementById("BookData").addEventListener("submit", function (event) {
-        // event.preventDefault();
-        // document.getElementById('BookData').reset();
-        console.log('submmited');
+        event.preventDefault();
+        document.getElementById('BookData').reset();
+        location.reload();
         });
 </script>
